@@ -47,6 +47,12 @@ youtubeUrl:'https://youtube.com/shorts/rc72dybDzco'     ),
         github: 'https://github.com/Ahmedzagzoug1/QuranKariem',
         youtubeUrl:'https://youtube.com/shorts/D8bAH8SybNU'
     ),
-
+  ProjectModel(
+  title: 'Medical Health App (under development)',
+  description: 'A comprehensive healthcare application designed to connect patients with doctors, manage medical appointments, track health metrics, and view prescriptions with a responsive UI.',
+  technologies: ['Flutter', 'Dart', 'BLoC / Cubit', 'Dio', 'MVVM'],
+  github: 'https://github.com/Ahmedzagzoug1/medical-health', // قم بتحديث الرابط برابط المستودع الفعلي
+  youtubeUrl: '', // ضع رابط الفيديو الحقيقي هنا لو متوفر
+),
   ];
 }
