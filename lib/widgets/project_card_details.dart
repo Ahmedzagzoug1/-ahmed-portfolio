@@ -59,6 +59,13 @@ class ProjectCardDetais extends StatelessWidget {
                       url: project.github,
                       color: Colors.black87,
                     ),
+                  if (project.backendGithub.isNotEmpty)
+                    _projectLinkButton(
+                      icon: FontAwesomeIcons.github,
+                      label: 'Backend GitHub',
+                      url: project.backendGithub,
+                      color: Colors.black87,
+                    ),
                   if (project.youtubeUrl.isNotEmpty)
                     _projectLinkButton(
                       icon: FontAwesomeIcons.link,

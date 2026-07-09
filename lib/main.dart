@@ -49,12 +49,16 @@ class _HomePageState extends State<HomePage> {
 
    final List<String> skills = [
      "Flutter & Dart",
+     "Node JS",
      "Firebase",
      "REST APIs",
+     "MongoDB",
+
      "Git & GitHub",
      "Responsive Design",
      "Provider",
      "Cubit",
+     "JWT Authentication",
      "Clean Architecture",
      "Java (Android)"
    ];

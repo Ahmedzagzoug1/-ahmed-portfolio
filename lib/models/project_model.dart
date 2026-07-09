@@ -3,12 +3,14 @@ class ProjectModel {
   final String description;
   final List<String> technologies;
   final String github;
+final String backendGithub;
 final String youtubeUrl;
   ProjectModel( {
     required this.title,
     required this.description,
     required this.technologies,
     required this.github,
+     this.backendGithub='',
     required this.youtubeUrl
   });
 
@@ -16,7 +18,8 @@ final String youtubeUrl;
     ProjectModel(
       title: 'Car Rental App',
       description: 'A production-ready application following Clean architecture, featuring booking workflows, OTP verification, driver license validation using OCR , and offline caching.',
-      technologies: ['Flutter', 'Dart', 'Cubit', 'Firebase', 'Clean architecture', 'Dependency Injection', 'Hive' , 'http'],
+      technologies: ['Flutter', 'Dart', 'Cubit', 'Firebase',
+       'Clean architecture', 'Dependency Injection', 'Hive' , 'http'],
       github: 'https://github.com/Ahmedzagzoug1/car_rental',
       youtubeUrl: 'https://youtube.com/shorts/V5OSkzx9zUk', // ضيف الرابط هنا
     ),
@@ -49,10 +52,11 @@ youtubeUrl:'https://youtube.com/shorts/rc72dybDzco'     ),
     ),
   ProjectModel(
   title: 'Medical Health App (under development)',
-  description: 'A comprehensive healthcare application designed to connect patients with doctors, manage medical appointments, track health metrics, and view prescriptions with a responsive UI.',
-  technologies: ['Flutter', 'Dart', 'BLoC / Cubit', 'Dio', 'MVVM'],
+  description: 'Built a full-stack healthcare platform consisting of a Flutter mobile application and a scalable Node.js backend API. The platform enables patients to discover doctors, book appointments, manage schedules, and securely authenticate using JWT. The backend follows a modular architecture with role-based access control and comprehensive API documentation.',
+  technologies: ['Node.js', 'Express.js', 'MongoDB', 'Flutter', 'Dart', 'BLoC / Cubit', 'Dio', 'MVVM', 'JWT Authentication'],
   github: 'https://github.com/Ahmedzagzoug1/medical-health', // قم بتحديث الرابط برابط المستودع الفعلي
   youtubeUrl: '', // ضع رابط الفيديو الحقيقي هنا لو متوفر
+  backendGithub: 'https://github.com/Ahmedzagzoug1/medical-health-backend'
 ),
   ];
 }
