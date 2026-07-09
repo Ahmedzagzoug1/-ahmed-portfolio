@@ -22,7 +22,16 @@ final String youtubeUrl;
        'Clean architecture', 'Dependency Injection', 'Hive' , 'http'],
       github: 'https://github.com/Ahmedzagzoug1/car_rental',
       youtubeUrl: 'https://youtube.com/shorts/V5OSkzx9zUk', // ضيف الرابط هنا
+ 
     ),
+ ProjectModel(
+  title: 'Medical Health App (under development)',
+  description: 'Built a full-stack healthcare platform consisting of a Flutter mobile application and a scalable Node.js backend API. The platform enables patients to discover doctors, book appointments, manage schedules, and securely authenticate using JWT. The backend follows a modular architecture with role-based access control and comprehensive API documentation.',
+  technologies: ['Node.js', 'Express.js', 'MongoDB', 'Flutter', 'Dart', 'BLoC / Cubit', 'Dio', 'MVVM', 'JWT Authentication'],
+  github: 'https://github.com/Ahmedzagzoug1/medical-health', // قم بتحديث الرابط برابط المستودع الفعلي
+  youtubeUrl: '', // ضع رابط الفيديو الحقيقي هنا لو متوفر
+  backendGithub: 'https://github.com/Ahmedzagzoug1/medical-health-backend'
+),
     ProjectModel(
       title: 'Monkey meal (Food Delivery App)',
       description: 'A group project where I led the complete UI implementation, responsive layouts, and structured the codebase to connect UI with backend services.',
@@ -50,13 +59,6 @@ youtubeUrl:'https://youtube.com/shorts/rc72dybDzco'     ),
         github: 'https://github.com/Ahmedzagzoug1/QuranKariem',
         youtubeUrl:'https://youtube.com/shorts/D8bAH8SybNU'
     ),
-  ProjectModel(
-  title: 'Medical Health App (under development)',
-  description: 'Built a full-stack healthcare platform consisting of a Flutter mobile application and a scalable Node.js backend API. The platform enables patients to discover doctors, book appointments, manage schedules, and securely authenticate using JWT. The backend follows a modular architecture with role-based access control and comprehensive API documentation.',
-  technologies: ['Node.js', 'Express.js', 'MongoDB', 'Flutter', 'Dart', 'BLoC / Cubit', 'Dio', 'MVVM', 'JWT Authentication'],
-  github: 'https://github.com/Ahmedzagzoug1/medical-health', // قم بتحديث الرابط برابط المستودع الفعلي
-  youtubeUrl: '', // ضع رابط الفيديو الحقيقي هنا لو متوفر
-  backendGithub: 'https://github.com/Ahmedzagzoug1/medical-health-backend'
-),
+  
   ];
 }
